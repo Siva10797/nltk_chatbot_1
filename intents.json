@@ -1,0 +1,41 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+    "responses": ["Hello!","Hey!","What can I do for you?"]
+    },
+  
+    {"tag": "name",
+    "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+    "responses": ["You can call me bot","I'm Ribot","I'm Ribot your virtual assistant"]
+    },
+  
+    {"tag": "Update ",
+    "patterns": ["How to update Organization "],
+    "responses": ["Click the Edit button on the Organizations list page.\nEnter the details.\nTo update, click Save."]
+    },
+  
+     {"tag": "Delete",
+    "patterns": ["How to Delete Organization"],
+    "responses": ["Press the red X button.\nTo proceed with the delete action, click Yes/No."]
+    },
+  
+     {"tag": "View ",
+    "patterns": ["How to View Organizatione"],
+    "responses": ["Click to view Icon to See Detai."]
+    },
+
+    {"tag": "Security testing",
+        "patterns": ["What is Security Testing?"],
+        "responses": ["Security Testing is a type of Software Testing that uncovers vulnerabilities, threats, risks in a software application and prevents malicious attacks from intruders. The purpose of Security Tests is to identify all possible loopholes and weaknesses of the software system which might result in a loss of information, revenue, repute at the hands of the employees or outsiders of the Organization."]
+    },
+
+    {"tag": "Types",
+      "patterns": ["What is types Security Testing?"],
+      "responses": ["Vulnerability Scanning\nSecurity Scanning\nPenetration testing\nRisk Assessment\nSecurity Auditing\nEthical hacking\nPosture Assessment"]
+    },
+
+    {"tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+  ]}
